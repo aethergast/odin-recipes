@@ -1,0 +1,30 @@
+* {
+    background-color: azure;
+}
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.para {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(102, 51, 153);; /* Use the color keyword directly */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    background-color: blanchedalmond;
+}
+
+.list{
+    text-align: justify;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
