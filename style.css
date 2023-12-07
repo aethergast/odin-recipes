@@ -1,30 +1,66 @@
 * {
-    background-color: azure;
+    background-color: lightgray;
 }
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
 h1 {
     color: rebeccapurple;
-    text-align: center;
+    text-align: justify;
+    border-bottom: 2px solid navajowhite;
+    padding-left: 30px;
 }
 
 img {
     display: block;
+    justify-content: center;
     margin: auto;
+    max-width: 100%;
 }
 
 .para {
+    display: inlineblock;
     text-align: center;
     width: 50%;
     margin: auto;
-    background-color: rgb(102, 51, 153);; /* Use the color keyword directly */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    border: 2px dotted red;
+    background-color: salmon;
+    padding: 10px;
+    text-align: justify;
 }
 
 p{
-    background-color: blanchedalmond;
+    background-color: salmon;
 }
 
 .list{
+    display: inline;
     text-align: justify;
     color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-left: 20px;
+    padding: 20px;
+    border-left: 5px double salmon;
+}
+ul{
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+.lasagna{
+    border: 2px solid red;
+}
+.susbuton{
+    background-color: pink;
+    border: 2px solid red;
 }
